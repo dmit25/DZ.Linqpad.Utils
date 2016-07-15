@@ -10,7 +10,7 @@ namespace DZ.Linqpad.Utils
 {
     [ExcludeFromCodeCoverage]
     [PublicAPI]
-    public static class GenericExtensions
+    public static class FileExtensions
     {
         /// <summary>
         /// extract filename and append suffix to it
@@ -156,9 +156,11 @@ namespace DZ.Linqpad.Utils
             return Console.ReadLine();
         }
 
-        public static void ToConsole(this string message)
+        public static void ToConsole(this object obj)
         {
-            Console.WriteLine(message);
+            Console.WriteLine(obj);
         }
+
+        public static string CombinePath(this string left, string right) { return Path.Combine(left, right); }
     }
 }
