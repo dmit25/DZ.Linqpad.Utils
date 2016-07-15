@@ -12,5 +12,11 @@
     <releaseNotes>Initial release</releaseNotes>
     <copyright>Copyright 2016</copyright>
     <tags>linqpad extension utils tools dz</tags>
+    <dependencies>
+      <dependency id="JetBrains.Annotations" version="10.1.5"/>
+    </dependencies>
   </metadata>
+  <files>
+        <file src="bin\Release\DZ.Linqpad.Utils.*" target="lib\net45"/>
+  </files>
 </package>
