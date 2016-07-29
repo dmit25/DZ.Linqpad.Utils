@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GenericExtensions.cs" />
     <Compile Include="RegexExtensions.cs" />
     <Compile Include="StringExtensions.cs" />
     <Compile Include="FileExtensions.cs" />
@@ -54,6 +55,7 @@
     <None Include="..\README.md">
       <Link>README.md</Link>
     </None>
+    <None Include="DZ.Linqpad.Utils.nuspec" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

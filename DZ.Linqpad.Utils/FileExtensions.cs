@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 using System.IO;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using JetBrains.Annotations;
 
@@ -109,9 +110,11 @@ namespace DZ.Linqpad.Utils
             return File.Exists(filename);
         }
 
+        public static void MoveTo(this string filepath, string newPath) { filepath.Apply(File.Move, newPath); }
+
         public static bool DirExists(this string path)
         {
-            return Directory.Exists(path);
+            return path.Apply(Directory.Exists);
         }
 
         public static List<string> FilesList(this string directoryName)

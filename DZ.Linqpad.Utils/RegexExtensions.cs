@@ -9,5 +9,10 @@ namespace DZ.Linqpad.Utils
         {
             return Regex.Replace(text, pattern, replacement);
         }
+
+        public static bool IsMatch(this string text, [RegexPattern] string pattern)
+        {
+            return Regex.IsMatch(text, pattern);
+        }
     }
 }
