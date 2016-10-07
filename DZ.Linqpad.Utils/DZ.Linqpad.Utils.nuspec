@@ -2,14 +2,16 @@
 <package >
   <metadata>
     <id>DZ.Linqpad.Utils</id>
-    <version>1.1.0</version>
+    <version>1.2.0</version>
     <title>DZ.Linqpad.Utils</title>
     <authors>Zobnin Dmitry</authors>
     <owners>Zobnin Dmitry</owners>
     <projectUrl>https://github.com/dmit25/DZ.Linqpad.Utils</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Contains LinqPad Utility extensions.Simplifies file content manipulations offering Fluent API to the most used File and Directory operations. For more information https://github.com/dmit25/DZ.Linqpad.Utils </description>
-    <releaseNotes>Initial release</releaseNotes>
+    <releaseNotes>Initial release
+    Frequency distribution extension method
+    </releaseNotes>
     <copyright>Copyright 2016</copyright>
     <tags>linqpad extension utils tools dz</tags>
     <dependencies>

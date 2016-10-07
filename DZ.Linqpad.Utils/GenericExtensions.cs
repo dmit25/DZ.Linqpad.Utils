@@ -105,13 +105,5 @@ namespace DZ.Linqpad.Utils
         {
             func(input, input1, input2, input3, input4);
         }
-
-        public static void ForEach<T>(this IEnumerable<T> input, Action<T> action)
-        {
-            foreach (var x1 in input)
-            {
-                action(x1);
-            }
-        }
     }
 }
