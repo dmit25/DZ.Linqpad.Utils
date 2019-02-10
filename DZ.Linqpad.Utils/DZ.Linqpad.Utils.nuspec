@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>DZ.Linqpad.Utils</id>
-    <version>1.2.0</version>
+    <version>1.3.0</version>
     <title>DZ.Linqpad.Utils</title>
     <authors>Zobnin Dmitry</authors>
     <owners>Zobnin Dmitry</owners>
@@ -15,7 +15,7 @@
     <copyright>Copyright 2016</copyright>
     <tags>linqpad extension utils tools dz</tags>
     <dependencies>
-      <dependency id="JetBrains.Annotations" version="10.1.5"/>
+      <dependency id="JetBrains.Annotations" version="2018.3.0"/>
     </dependencies>
   </metadata>
   <files>

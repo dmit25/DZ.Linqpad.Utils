@@ -32,14 +32,6 @@ namespace DZ.Linqpad.Utils
         }
 
         /// <summary>
-        /// Creates new hashset out of enumeration
-        /// </summary>
-        public static HashSet<T> ToHashSet<T>(this IEnumerable<T> input)
-        {
-            return new HashSet<T>(input);
-        }
-
-        /// <summary>
         /// Shuffles elements inside container
         /// </summary>
         public static IList<T> Shuffle<T>(this IList<T> list, Random rand)
